@@ -73,7 +73,7 @@ export class CheckoutPage {
      }
      async fillInEmailInfo() {
            await this.emailInput.click();
-           await this.emailInput.fill('test_user4@hotmail.co.uk');
+           await this.emailInput.fill('test_user5@hotmail.co.uk');
            await this.agreePolicy.click();
 
            await this.emailInput.click();
